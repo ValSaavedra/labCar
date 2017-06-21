@@ -1,0 +1,60 @@
+*{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+ /*{font-family: 'icomoon', sans-serif;
+ src: url(fonts/icomoon.eot);
+ src: url(fonts/icomoon.woff),
+ 	  url("fonts/icomoon.ttf")
+ } */
+
+
+/*NAVBAR*/
+
+.navbar-default{
+	background-color: #fff;
+	border: none;
+	height: 5em;
+	margin-bottom: 0px;
+}
+
+.navbar-toggle{
+	margin-top: 2em;
+}
+
+.logo{
+	padding-top: 2em;
+}
+
+.navbar-default .navbar-nav li a{
+	color: #000;
+	transition: .5s all ease;
+	padding-top: 36px;
+}
+.navbar-default .navbar-nav li a:hover{
+	color: #f7b617;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s all ease
+	text-shadow: 2px 2px #ff0000;
+}
+
+/*VIAJA*/
+
+.viaja{
+	background-image: url(../css/labcar/img/taxi.jpg);
+	background-position: bottom;
+	background-size: cover;
+	width:100 auto;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+.caja-registro {
+	background-color: #f7b617;
+	height: 350px;
+    width: 453px;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+}
