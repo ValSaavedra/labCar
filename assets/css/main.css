@@ -1,6 +1,5 @@
 *{
 	font-family: 'Raleway', sans-serif;
-
 }
 
  /*{font-family: 'icomoon', sans-serif;
@@ -50,11 +49,133 @@
 	height: 100vh;
 	background-repeat: no-repeat;
 }
+
 .caja-registro {
 	background-color: #f7b617;
-	height: 350px;
+	height: 390px;
     width: 453px;
+    margin-top: 8em;
     right: 0;
     position: absolute;
     display: inline-block;
+}
+
+.caja-registro h2{
+	padding: 1em;
+	color: #FFF;
+	font-size:2em;
+	font-weight: bold;
+	margin-bottom: -5px;
+}
+
+.caja-registro h4, h5{
+	color: #FFF;
+	margin-top: 3px;
+	padding-left: 1em;
+	margin-bottom: -5px;
+
+}
+ 
+.caja-registro .beDriver{
+	background-color: #f7b617;
+	color: #FFF;
+	padding: 1em;
+	margin-bottom: -3px;
+}
+
+
+.caja-registro .beDriver:hover{
+	background-color: #FFF;
+	color: #f7b617;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s all ease
+	text-shadow: 2px 2px #ff0000;
+}
+
+/*DESCARGA*/
+.descarga .container-fluid{
+	background-color: #f7b617;
+	height: 38em;
+}
+
+.texto-descarga h2{
+	color: #FFF;
+	font-size:2em;
+	font-weight: bold;
+	margin-bottom: -5px;
+}
+
+
+.texto-descarga p{
+	color: #FFF;
+	margin-left: 2em;
+	font-size: 17px;
+}
+
+
+/*CONDUCE*/
+.conduce{
+	background-image: url(../css/labcar/img/conduce.jpg);
+	background-position: bottom;
+	background-size: cover;
+	width:100 auto;
+	height: 32em;
+	background-repeat: no-repeat;
+}
+
+.caja-conduce {
+	height: 32em;
+    width: 453px;
+    border: none;
+  	box-shadow: 0 0 10px #000;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+   	background-blend-mode: luminosity;
+   	background-color: rgba(0, 0, 0, 0.7);  
+   }
+
+.caja-conduce h2{
+	color: #FFF;
+	font-size:2em;
+	font-weight: bold;
+	margin-left: 1em;
+	margin-top: 6em;
+	}
+
+.caja-conduce p{
+	color: #FFF;
+	margin-left: 2em;
+	font-size: 17px;
+}
+ 
+.caja-conduce .btn-default{
+	background-color: #f7b617;
+	color: #FFF;
+	border: none;
+	margin-left: 2em;
+}
+
+.caja-registro .btn-default:hover{
+	background-color: #FFF;
+	color: #f7b617;
+	font-weight: bold;
+	cursor: pointer;
+	transition: .5s all ease
+	text-shadow: 2px 2px #ff0000;
+}
+
+/*TARIFAS*/
+
+.tarifas{
+	background-color: #f7b617;
+	height: 38em;
+}
+
+
+/*FOOTER*/
+
+#git{
+
 }
